@@ -5,7 +5,7 @@ from time import sleep
 import xlsxwriter
 import urllib.request
 
-browser = selenium.webdriver.Chrome('path/chromedriver')#Download the Chrome driver and Change the file path
+browser = selenium.webdriver.Chrome('path/chromedriver')#Path of your chromedriver. Download here https://chromedriver.chromium.org/
 url = 'http://bbcsfx.acropolis.org.uk'
 browser.get(url)
 workbook = xlsxwriter.Workbook('SFXIndex.xlsx')
